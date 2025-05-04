@@ -10,8 +10,8 @@ export default async function handler(req, res) {
       'Content-Type': 'application/json'
     },
     body: JSON.stringify({
-      model: "llama3-8b-8192",
-      messages: [{ role: "user", content: user_input }],
+      model: 'llama3-8b-8192',
+      messages: [{ role: 'user', content: user_input }],
       max_tokens: 512
     })
   });
